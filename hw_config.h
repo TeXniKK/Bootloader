@@ -763,6 +763,7 @@
 # define USBMFGSTRING                   "Microtech"
 # define USBVENDORID                    0x2DAE
 //# define BOOT_DELAY_ADDRESS             0x000001a0
+//# define BOARD_USB_VBUS_SENSE_DISABLED
 
 # define BOARD_TYPE                     9
 # define _FLASH_KBYTES                  (*(uint16_t *)0x1fff7a22)

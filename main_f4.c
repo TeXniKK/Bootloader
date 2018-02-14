@@ -161,9 +161,10 @@ static void board_init(void);
 /* standard clocking for all F4 boards */
 static const struct rcc_clock_scale clock_setup = {
 	.pllm = OSC_FREQ,
-	.plln = 336,
-	.pllp = 2,
+	.plln = 400,
+	.pllp = 4,
 	.pllq = 7,
+
 #if defined(STM32F446) || defined(STM32F469)
 	.pllr = 2,
 #endif
