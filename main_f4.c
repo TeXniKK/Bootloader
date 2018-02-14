@@ -848,6 +848,7 @@ main(void)
 		bootloader(timeout);
 
 		/* if the force-bootloader pins are strapped, just loop back */
+
 		if (board_test_force_pin()) {
 			continue;
 		}
